@@ -2465,7 +2465,7 @@ function loadTabs() {
         }
 
         function addTab(title, content = '', id = null) {
-    const defaultText = "--[[\n    Made by Salad\n    discord.gg/getsalad\n ]]";
+    const defaultText = "--[[\n    Made by Rolex Dev\n    Rolex On Top\n ]]";
     
     if (!content) {
         content = defaultText;
@@ -2529,7 +2529,7 @@ function switchTab(tabId) {
             }
         }
         
-        const contentToSet = tab.content.trim() === '' ? "--[[ Made by Salad\n    discord.gg/getsalad\n ]]" : tab.content;
+        const contentToSet = tab.content.trim() === '' ? "--[[ Made by Rolex Dev\n    Rolex On Top\n ]]" : tab.content;
         editor.setValue(contentToSet);
         tab.element.classList.add('active');
         currentTab = tabId;
